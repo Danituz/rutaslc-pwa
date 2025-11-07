@@ -1,7 +1,7 @@
 {
-  "name": "Rutas Mensajeros",
-  "short_name": "Rutas",
-  "description": "Horarios rotativos para mensajeros sin conexión",
+  "name": "Mensajeros LACLICSA",
+  "short_name": "M-LACLICSA",
+  "description": "Consulta tus horarios y usa tu plan de ruta sin conexión en cualquier momento.",
   "start_url": "/",
   "display": "standalone",
   "background_color": "#f8fafc",

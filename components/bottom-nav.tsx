@@ -17,8 +17,11 @@ export function BottomNav() {
   const pathname = usePathname()
 
   return (
-    <nav className="fixed inset-x-0 bottom-0 z-50 border-t bg-background/95 px-4 py-2 shadow-2xl shadow-black/10 backdrop-blur supports-[backdrop-filter]:bg-background/70">
-      <div className="mx-auto flex max-w-md items-center justify-between gap-1">
+    <nav
+      className="fixed inset-x-0 bottom-0 z-50 px-4 pt-2"
+      style={{ paddingBottom: `calc(env(safe-area-inset-bottom, 0px) + 0.75rem)` }}
+    >
+      <div className="mx-auto flex max-w-md items-center justify-between rounded-3xl border border-white/20 bg-slate-900/80 p-2 text-white shadow-2xl shadow-blue-950/40 backdrop-blur">
         {navItems.map((item) => {
           const Icon = item.icon
           const isActive = pathname === item.href
@@ -27,11 +30,13 @@ export function BottomNav() {
               key={item.href}
               href={item.href}
               className={cn(
-                "flex flex-1 flex-col items-center rounded-xl px-2 py-1 text-xs font-medium text-muted-foreground transition",
-                isActive && "bg-foreground/5 text-foreground"
+                "flex flex-1 flex-col items-center rounded-2xl px-3 py-1.5 text-[0.65rem] font-semibold uppercase tracking-wide transition",
+                isActive
+                  ? "bg-white text-slate-900 shadow-lg shadow-blue-900/20"
+                  : "text-white/70 hover:text-white"
               )}
             >
-              <Icon className="size-5" />
+              <Icon className={cn("mb-1 size-4", isActive ? "text-blue-600" : "text-white/70")} />
               {item.label}
             </Link>
           )

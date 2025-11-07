@@ -1,0 +1,10 @@
+{
+  "baseMonday": "2025-01-06",
+  "order": ["juan", "eric", "daniel", "ismael"],
+  "routes": [
+    { "id": "route-1", "name": "Ruta 1" },
+    { "id": "route-2", "name": "Ruta 2" },
+    { "id": "route-3", "name": "Ruta 3" },
+    { "id": "route-4", "name": "Ruta 4" }
+  ]
+}

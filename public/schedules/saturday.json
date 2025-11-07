@@ -1,0 +1,113 @@
+{
+  "version": 1,
+  "timeframe": "saturday",
+  "label": "Sábados",
+  "routes": [
+    {
+      "id": "route-1",
+      "name": "Ruta 1",
+      "city": "Cancún",
+      "color": "emerald",
+      "stops": [
+        { "time": "08:00 - 08:30", "location": "E-30" },
+        { "time": "08:30 - 09:00", "location": "E-30" },
+        { "time": "09:20 - 09:25", "location": "Arbolada" },
+        { "time": "09:40 - 09:45", "location": "Viocenter" },
+        { "time": "10:05 - 10:10", "location": "Palmas" },
+        { "time": "10:20 - 10:25", "location": "Infinity" },
+        { "time": "10:35 - 10:40", "location": "Pabellón" },
+        { "time": "10:45 - 10:50", "location": "Azuna" },
+        { "time": "10:55 - 11:00", "location": "BNK" },
+        { "time": "11:10 - 11:15", "location": "Palmas" },
+        { "time": "11:25 - 11:30", "location": "Paraíso" },
+        { "time": "11:35 - 11:40", "location": "Talleres" },
+        { "time": "11:45 - 11:50", "location": "Colorines" },
+        { "time": "12:00 - 12:05", "location": "Xelhá" },
+        { "time": "12:20 - 12:25", "location": "Palmas" },
+        { "time": "12:30 - 12:35", "location": "Descanso", "type": "break" },
+        { "time": "12:40 - 12:45", "location": "Infinity" },
+        { "time": "12:50 - 12:55", "location": "Pabellón" },
+        { "time": "13:05 - 13:10", "location": "Palmas" },
+        { "time": "13:15 - 13:20", "location": "Entrega" },
+        { "time": "13:45 - 14:00", "location": "Fin de turno", "type": "end" }
+      ]
+    },
+    {
+      "id": "route-2",
+      "name": "Ruta 2",
+      "city": "Playa",
+      "color": "sky",
+      "stops": [
+        { "time": "08:00 - 08:30", "location": "Salida a Playa" },
+        { "time": "08:30 - 09:00", "location": "Salida a Playa" },
+        { "time": "09:00 - 09:25", "location": "VLLS del Sol" },
+        { "time": "09:30 - 09:35", "location": "Playacar" },
+        { "time": "09:40 - 09:45", "location": "PLY FDL" },
+        { "time": "10:00 - 10:05", "location": "PLY Centro" },
+        { "time": "10:10 - 10:15", "location": "Nash" },
+        { "time": "10:20 - 10:25", "location": "Palmas" },
+        { "time": "10:35 - 10:40", "location": "Descanso", "type": "break" },
+        { "time": "11:15 - 11:20", "location": "Luna" },
+        { "time": "11:40 - 11:45", "location": "Santa Fe" },
+        { "time": "12:05 - 12:10", "location": "Viocenter" },
+        { "time": "12:20 - 12:25", "location": "Palmas" },
+        { "time": "12:30 - 12:35", "location": "Cumbres" },
+        { "time": "12:45 - 12:50", "location": "Palmas" },
+        { "time": "13:35 - 13:50", "location": "Entrega" },
+        { "time": "14:00", "location": "Fin de turno", "type": "end" }
+      ]
+    },
+    {
+      "id": "route-3",
+      "name": "Ruta 3",
+      "city": "Cancún 2",
+      "color": "amber",
+      "stops": [
+        { "time": "08:00 - 08:30", "location": "E-30" },
+        { "time": "08:30 - 09:00", "location": "E-30" },
+        { "time": "09:20 - 09:25", "location": "Santa Fe" },
+        { "time": "09:30 - 09:35", "location": "Luna" },
+        { "time": "09:40 - 09:45", "location": "Palmas" },
+        { "time": "10:05 - 10:10", "location": "Talleres" },
+        { "time": "10:15 - 10:20", "location": "Colorines" },
+        { "time": "10:25 - 10:30", "location": "Xelhá" },
+        { "time": "10:35 - 10:40", "location": "Palmas" },
+        { "time": "11:00 - 11:05", "location": "Paraíso" },
+        { "time": "11:10 - 11:15", "location": "Viocenter" },
+        { "time": "11:20 - 11:25", "location": "Arbolada" },
+        { "time": "11:30 - 11:35", "location": "Palmas" },
+        { "time": "11:40 - 11:45", "location": "Cumbres" },
+        { "time": "11:50 - 11:55", "location": "Palmas" },
+        { "time": "12:00 - 12:05", "location": "Colosio" },
+        { "time": "12:30 - 12:35", "location": "Arbolada" },
+        { "time": "12:40 - 12:45", "location": "Descanso", "type": "break" },
+        { "time": "12:50 - 12:55", "location": "Azuna" },
+        { "time": "13:00 - 13:05", "location": "BNK" },
+        { "time": "13:10 - 13:15", "location": "Palmas" },
+        { "time": "13:15 - 13:40", "location": "Entrega" },
+        { "time": "13:40 - 14:00", "location": "Fin de turno", "type": "end" }
+      ]
+    },
+    {
+      "id": "route-4",
+      "name": "Ruta 4",
+      "city": "Tulum",
+      "color": "rose",
+      "stops": [
+        { "time": "08:00 - 08:30", "location": "Salida a Tulum" },
+        { "time": "10:00 - 10:05", "location": "Tulum" },
+        { "time": "10:40 - 10:45", "location": "PTO VTS" },
+        { "time": "11:20 - 11:25", "location": "Playacar" },
+        { "time": "11:35 - 11:40", "location": "PLY FDL" },
+        { "time": "11:50 - 11:55", "location": "VLLS del Sol" },
+        { "time": "12:05 - 12:10", "location": "Nash" },
+        { "time": "12:20 - 12:35", "location": "PLY Centro" },
+        { "time": "12:40 - 12:55", "location": "Descanso", "type": "break" },
+        { "time": "13:20 - 13:25", "location": "Cozumel" },
+        { "time": "13:40 - 13:45", "location": "Palmas" },
+        { "time": "13:50 - 13:55", "location": "Entrega" },
+        { "time": "14:00", "location": "Fin de turno", "type": "end" }
+      ]
+    }
+  ]
+}
